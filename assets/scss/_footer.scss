@@ -1,0 +1,9 @@
+/* Footer default type from helper */
+
+p {
+    @include default-type;
+}
+
+footer {
+    @include default-type;
+}
