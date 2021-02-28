@@ -3,40 +3,179 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="assets/icons/Logo.png">
+    <link rel='icon' href='/assets/icons/icon.png' type='icons' />
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Monticello</title>
 
 </head>
 
-<body>
-    <header>
-        <div class="wrapper">
+<body class="ml-md mr-md">
+    <header class="header header-bg bg-color">
+        <nav class="header-nav">
+            <a href="#default" class="logo"><img src="/assets/icons/Logo.svg" alt="logo" style="padding-right: 3em"></a>
+            <ul>
+                <li><a href="#home">about us</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#news">news</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+            <ul style="padding-left: 50px;">
+                <li>
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+        </nav>
+        <div>
+            <h1 class="header-title1">simple & modern</h1>
+            <p class="header-txt">we make the world beautiful everyday</p>
+            <a href="#"><img class="header-arrow" src="/assets/icons/Ellipse5.svg" alt="ellipse"></a>
         </div>
     </header>
-    <div class="row">
-        <div class="sm-col-span-2 lg-col-span-4">
-            <h1>Blog</h1>
-        </div>
-        <nav class="sm-col-span-2 lg-col-span-4">
-            <ul>
-        </nav>
+    <div class="header-title2">
+        <img src="/assets/icons/Line1.svg" alt="line" style="padding-bottom: 1em;">
+        <h2 style="padding-bottom: 2em;">what we do</h2>
     </div>
+    <section class="project1">
+        <div>
+            <img src="/assets/image/ImageProject1.svg" alt="ImageProject1">
+        </div>
+        <div>
+            <p>ONE WORLD</p>
+            <h2>TRADE CENTER</h2>
+            <p>Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+            <button>MORE DETAILS</button>
+            <p><i class="fa fa-map-marker" style="padding: 10px;"></i>New York City, United States - 1776 feet </p>
+        </div>
 
-                <aside class="sm-col-span-4 lg-col-span-1">
-                    <h2>Related Articles</h2>
-                    <nav>
-                        <ul>
-                        </ul>
-                    </nav>
-                </aside>
-            </div>
-            <li><a href="#">Article item 1</a></li>
-            <li><a href="#">Article item 2</a></li>
-            <li><a href="#">Article item 3</a></li>
+    </section>
+    <section class="project2">
+        <div>
+            <p>INTERNATIONAL</p>
+            <h2>COMMERCE CENTRE</h2>
+            <p>Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+            <button>MORE DETAILS</button>
+            <p><i class="fa fa-map-marker" style="padding: 10px;"></i>New York City, United States - 1776 feet </p>
         </div>
-    </div>
+        <div>
+            <img src="/assets/image/ImageProject2.svg" alt="ImageProject2">
+        </div>
+    </section>
+    <section class="News">
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+                <img src="/assets/image/Article1.svg" alt="Article1" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>SEE THE UNMATCHED BEAUTY OF THE GREAT.</b></p>
+                    <p class="w3-opacity">Free directories: directories are perfect for customers that are searching for...</p>
+                    <img src="/assets/image/Article1photos.svg" alt="Article1photos">
+                    <p>ALJA BRUN</p>
+                    <p>20 Jan 2020</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <img src="/assets/image/Article2.svg" alt="Article2" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>EFFECTIVE ADVERTISING POINTERS.</b></p>
+                    <p class="w3-opacity">Having a home based business is a wonderful asset to your life...</p>
+                    <img src="/assets/image/Article3photos.svg" alt="Article3photos">
+                    <p>DOMINIC FREEMAN</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <img src="/assets/image/Article3.svg" alt="Article3" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>HYPNOTIZE YOURSELF INTO THE GHOST.</b></p>
+                    <p class="w3-opacity">There are many things that are important to catalog design...</p>
+                    <img src="/assets/image/Article3photos.svg" alt="Article3photos">
+                    <p>ALICE WARD</p>
+                    <p>30 Nov 2019</p>
+
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <script src="slideshow.js"></script>
+        </div>
+    </section>
+    <section class="gallery">
+        <img src="/assets/image/GalleryImage1.svg" alt="Image1">
+        <img src="/assets/image/GalleryImage2.svg" alt="Image2">
+        <img src="/assets/image/GalleryImage3.svg" alt="Image3">
+        <img src="/assets/image/GalleryImage4.svg" alt="Image4">
+        <img src="/assets/image/GalleryImage5.svg" alt="Image5">
+    </section>
+    <section class="map">
+        <div id="map"></div>
+        <script src="/assets/Javascript/map.js"></script>
+        <script src="/assets/Javascript/api.js"></script>
+    </section>
+    <section class="card">
+        <img src="/assets/svg/line.svg" alt="Line">
+        <h2>GET IN TOUCH</h2>
+        <div>
+            <p><i class="fa fa-map-marker" style="padding: 10px;">91 Nolan Extensions Suite 670</i></p>
+            <p><i class="fa fa-phone" style="padding: 10px;">+001 356-868-2454</i></p>
+            <p><i class="fa fa-inbox" style="padding: 10px;">montichello@service.com</i></p>
+            <p><i class="fa fa-clock" style="padding: 10px;">From 07:05AM to 19:30PM</i></p>
+        </div>
+        <div>
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <nav class="header-nav">
+            <a href="#default" class="logo"><img src="/assets/icons/Logo.svg" alt="logo" style="padding-right: 100px"></a>
+
+            <ul style="padding-left: 50px;">
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </ul>
+        </nav>
+        <p>Copyrights © 2020 Montichello</p>
+    </footer>
 </body>
 
 </html>

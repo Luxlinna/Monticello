@@ -1,12 +1,58 @@
 @mixin uppercase {
     text-transform: uppercase;
-    letter-spacing: 4.8px;
-    font-weight: bold;
+    /* letter-spacing: 4.8px; */
+    /* font-weight: bold; */
     text-align: center;
 }
 
 @mixin default-type {
     margin-bottom: 20px;
     font-size: 14px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
+}
+
+
+/* Padding helper */
+
+.pl-md {
+    padding-left: 215px;
+}
+
+.pr-md {
+    padding-right: 215px;
+}
+
+
+/* Margin helper */
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
+}
+
+.mb-xs {
+    margin-bottom: 50px;
 }

@@ -1,5 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* FONTS IMPORT */
+
+@import url('https://fontawesome.com/icons/map-marker-alt?style=solid');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+/* SETTING */
+
+body {
+    margin: 0;
+}
+
+
+/* Dot formate setting */
+
+
+/*  */
+
 ol {
     margin: 10px 0;
     padding: 10px 0;

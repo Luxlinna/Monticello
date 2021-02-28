@@ -1,6 +1,6 @@
 /* Set Backgroung-Colors variable */
 
-$bg-color: linear-gradient(to right, #55B7FF, #7E5AFF);
+$bg-color: linear-gradient(to top right, #55B7FF, #7E5AFF);
 $bg-org1-color: #55B7FF;
 $bg-org2-color: #7E5AFF;
 $bg-sub1-color: linear-gradient(to right, #3C7FD4, #24CCFA);
@@ -12,3 +12,12 @@ $txt1-color: #FFFFFF;
 $txt2-color: #2C4058;
 $txt3-color: #000000;
 $txt4-color: #55B7FF;
+
+/* Fonts Setting */
+
+$font-sm: 'Source Sans Pro',
+sans-serif;
+$font-title: 'Montserrat',
+sans-serif;
+$font-xs: 'Open Sans',
+sans-serif;
