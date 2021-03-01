@@ -1,0 +1,26 @@
+.project2 {
+    width: 92%;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    /*     text-align: left;
+ */
+    flex-grow: auto auto;
+    margin-left: 8%;
+    justify-content: space-between;
+}
+
+.project2-img1 {
+    width: 585px;
+    height: 470px;
+    background-position: right top;
+    margin: 0 11em;
+    background-repeat: no-repeat, repeat;
+}
+
+.project2-img2 {
+    width: 630px;
+    height: 470px;
+    margin: 3em -57em;
+    position: left bottom;
+}

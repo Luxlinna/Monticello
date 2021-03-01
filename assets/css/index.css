@@ -281,17 +281,95 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.card {
+/*  TEXT IN CARD */
+.txt-xs {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.02em;
+  line-height: 1.57em;
+  color: #2C4058; }
+
+.txt-sm {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 1.37em;
+  color: #2C4058;
+  text-transform: uppercase;
+  /* letter-spacing: 4.8px; */
+  /* font-weight: bold; */
+  text-align: center; }
+
+.txt-md {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.3em;
+  line-height: 1.5em;
+  color: #2C4058;
+  text-transform: uppercase;
+  /* letter-spacing: 4.8px; */
+  /* font-weight: bold; */
+  text-align: center; }
+
+.txt-md-s {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.35em;
+  line-height: 1.5em;
+  color: #2C4058;
+  text-transform: uppercase;
+  /* letter-spacing: 4.8px; */
+  /* font-weight: bold; */
+  text-align: center; }
+
+.txt-lg {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 1.5em;
+  color: #2C4058;
+  text-transform: uppercase;
+  /* letter-spacing: 4.8px; */
+  /* font-weight: bold; */
+  text-align: center; }
+
+.txt-itl {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 0.93em;
+  color: #000000;
+  text-transform: uppercase;
+  /* letter-spacing: 4.8px; */
+  /* font-weight: bold; */
+  text-align: center; }
+
+/* BUTTON SETTING */
+.bt {
+  width: 190px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #000000;
+  margin-top: 1.56em; }
+
+#img {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 92%;
+  width: 845px;
   height: 527px; }
+
+.card {
+  width: 470px;
+  height: 351px;
+  padding-top: 11.98em; }
+
+.right {
+  float: right; }
 
 .header {
   overflow: hidden;
   background-color: linear-gradient(to top right, #55B7FF, #7E5AFF);
-  padding: 4.3em 8%;
+  padding: 4.3em 8% 0 8%;
   font-family: "Montserrat", sans-serif; }
 
 .header-bg {
@@ -303,7 +381,7 @@ table {
 
 .header-title1 {
   font-weight: bold;
-  font-size: 4.5em;
+  font-size: 4em;
   letter-spacing: 0.07em;
   padding-top: 3.9em;
   text-transform: uppercase;
@@ -344,6 +422,7 @@ table {
   font-weight: normal;
   font-size: 0.87em;
   position: fixed;
+  z-index: 1;
   text-transform: uppercase;
   /* letter-spacing: 4.8px; */
   /* font-weight: bold; */
@@ -375,14 +454,12 @@ ul li {
   background-color: dodgerblue;
   color: white; }
 
-.header-right {
-  float: right; }
-
 @media screen and (max-width: 700px) {
   .header a {
     float: none;
     display: block;
-    text-align: left; }
+    text-align: left;
+    float: left; }
 
   .header h1 {
     text-align: center;
@@ -392,8 +469,235 @@ ul li {
     text-align: center;
     font-size: 0.5em; }
 
-  .header-right {
+  .right {
     float: none; } }
+.project1 {
+  width: 92%;
+  height: 527px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: auto auto;
+  margin-right: 8%;
+  justify-content: space-between; }
+
+.project1-img1 {
+  width: 585px;
+  height: 470px;
+  background-position: left top;
+  background-repeat: no-repeat, repeat; }
+
+.project1-img2 {
+  width: 630px;
+  height: 470px;
+  margin: 3em -30em;
+  position: right bottom;
+  position: relative; }
+
+.project2 {
+  width: 92%;
+  height: 527px;
+  display: flex;
+  flex-direction: row;
+   /*     text-align: left;
+*/
+  flex-grow: auto auto;
+  margin-left: 8%;
+  justify-content: space-between; }
+
+.project2-img1 {
+  width: 585px;
+  height: 470px;
+  background-position: right top;
+  margin: 0 11em;
+  background-repeat: no-repeat, repeat; }
+
+.project2-img2 {
+  width: 630px;
+  height: 470px;
+  margin: 3em -57em;
+  position: left bottom; }
+
+.news-bg {
+  width: 100%;
+  height: 64.68em;
+  background-image: url(/assets/image/NewsCity2.svg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 13.7em; }
+
+.news {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: auto auto auto;
+  padding-top: 5.7em; }
+
+.container {
+  padding: 3em 8% 0 8%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex-grow: auto auto auto;
+  justify-content: space-between; }
+
+.c-card {
+  width: 21em;
+  height: 31em;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  flex-grow: auto auto auto;
+  justify-content: space-between;
+  background-color: #FFFFFF; }
+
+.card-g {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 1em; }
+
+/* -----------Slide --------------- */
+.mySlides {
+  display: none; }
+
+img {
+  vertical-align: middle; }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; }
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 5em; }
+
+.active,
+.dot:hover {
+  background-color: #717171; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px; } }
+.gallery {
+  width: 73em;
+  height: 45em;
+  margin: 5.6em 8% 5.5em 8%;
+  text-align: center; }
+
+.gallery-img {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 20em auto;
+  gap: 5px; }
+
+.gallery-img1 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  gap: 5px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+/* Create four equal columns that sits next to each other */
+.column {
+  display: flex;
+  flex-direction: row;
+  padding: 0 4px; }
+
+.column img {
+  margin-top: 8px;
+   /*     vertical-align: middle;
+*/
+  width: 100%; }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%; } }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%; } }
+.location {
+  width: 100%;
+  height: 53em;
+  text-align: center; }
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%; }
+
+/* Optional: Makes the sample page fill the window. */
+/* html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
 /* Footer default type from helper */
 .footer-bg {
   background-image: url(/assets/image/footerImage.svg);

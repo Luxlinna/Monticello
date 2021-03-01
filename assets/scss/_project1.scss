@@ -1,0 +1,24 @@
+.project1 {
+    width: 92%;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: auto auto;
+    margin-right: 8%;
+    justify-content: space-between;
+}
+
+.project1-img1 {
+    width: 585px;
+    height: 470px;
+    background-position: left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.project1-img2 {
+    width: 630px;
+    height: 470px;
+    margin: 3em -30em;
+    position: right bottom;
+    position: relative;
+}
