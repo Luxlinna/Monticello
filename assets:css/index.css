@@ -686,10 +686,19 @@ img {
 
 /* Set the size of the div element that contains the map */
 #map {
-  height: 400px;
+  height: 50em;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */ }
+
+.contact {
+  width: 770px;
+  height: 45px;
+  margin-top: 2em;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid; }
 
 /* Footer default type from helper */
 .footer-bg {
